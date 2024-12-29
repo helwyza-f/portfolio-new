@@ -152,7 +152,7 @@ const Komentar = () => {
   }, []);
 
   return (
-    <div className="w-full bg-gradient-to-b from-white/10 to-white/5 rounded-2xl overflow-hidden backdrop-blur-xl shadow-xl">
+    <div className="w-full bg-gradient-to-b from-slate-900/90 to-slate-800/90 rounded-2xl overflow-hidden backdrop-blur-xl shadow-xl">
       <div className="p-6 border-b border-white/10">
         <div className="flex items-center gap-3">
           <div className="p-2 rounded-xl bg-indigo-500/20">

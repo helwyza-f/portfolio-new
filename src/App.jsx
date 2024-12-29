@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./index.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -9,7 +9,7 @@ import Portofolio from "./Pages/Portofolio";
 import ContactPage from "./Pages/Contact";
 import ProjectDetails from "./components/ProjectDetail";
 import WelcomeScreen from "./Pages/WelcomeScreen";
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from "framer-motion";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   return (
@@ -34,7 +34,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
                 © 2023{" "}
                 <a href="https://flowbite.com/" className="hover:underline">
-                  EkiZR™
+                  Helwyza™
                 </a>
                 . All Rights Reserved.
               </span>
@@ -70,7 +70,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
+        <Route
+          path="/"
+          element={
+            <LandingPage
+              showWelcome={showWelcome}
+              setShowWelcome={setShowWelcome}
+            />
+          }
+        />
         <Route path="/project/:id" element={<ProjectPageLayout />} />
       </Routes>
     </BrowserRouter>
