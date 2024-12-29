@@ -41,9 +41,9 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
               {Title}
             </h3>
             
-            <p className="text-gray-300/80 text-sm leading-relaxed line-clamp-2">
+            <div className="text-gray-300/80 text-sm leading-relaxed line-clamp-2">
               {Description}
-            </p>
+            </div>
             
             <div className="pt-4 flex items-center justify-between">
               {ProjectLink ? (
