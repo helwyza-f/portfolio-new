@@ -237,15 +237,16 @@ const AboutPage = () => {
               data-aos-duration="1500"
             >
               seorang Mahasiswa Teknik Komputer yang tertarik dalam pengembangan
-              Fullstack Developer. Saya berfokus pada menciptakan pengalaman digital yang
-              menarik dan selalu berusaha memberikan solusi terbaik dalam setiap
-              proyek.
+              Fullstack Developer. Saya berfokus pada menciptakan pengalaman
+              digital yang menarik dan selalu berusaha memberikan solusi terbaik
+              dalam setiap proyek.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
               <a
-                href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo"
+                href="https://www.canva.com/design/DAGZ0aeBa-w/XQVRSk_jpKVh5dphWnOvLQ/view?utm_content=DAGZ0aeBa-w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f88bb3aaf"
                 className="w-full flex justify-center"
+                target="_blank"
               >
                 <button
                   data-aos="fade-up"
